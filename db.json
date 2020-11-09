@@ -1,92 +1,131 @@
 {
     "test": {
-        "subject": "АЛМ",
+        "subject": {
+            "id": 1,
+            "name": "ALM"
+        },
         "questions": [
             {
-                "id": 7,
-                "question": "Какие виды автоматов Вы знаете?",
-                "answers": [
-                    "Мили",
-                    "Мура",
-                    "Мира",
-                    "Мули"
+                "id": 2,
+                "question": "Какие виды переходов Вы знаете",
+                "answerChoice": [
+                    {
+                        "id": 5,
+                        "answer": "Условные"
+                    },
+                    {
+                        "id": 6,
+                        "answer": "Простые"
+                    },
+                    {
+                        "id": 7,
+                        "answer": "Сложные"
+                    },
+                    {
+                        "id": 8,
+                        "answer": "Безуспешные"
+                    }
                 ]
             },
             {
-                "id": 5,
-                "question": "Какие виды переходов Вы знаете?",
-                "answers": [
-                    "Простые",
-                    "Сложные",
-                    "Услонвные",
-                    "Безусловные"
+                "id": 1,
+                "question": "Какие виды автоматов вы знаете",
+                "answerChoice": [
+                    {
+                        "id": 1,
+                        "answer": "Мили"
+                    },
+                    {
+                        "id": 2,
+                        "answer": "Мурка"
+                    },
+                    {
+                        "id": 3,
+                        "answer": "Муира"
+                    },
+                    {
+                        "id": 4,
+                        "answer": "Мира"
+                    }
                 ]
             }
         ]
     },
     "answers": [
         {
-            "answers": [
-                "Мили",
-                "Мура"
-            ],
-            "questionId": 1
+            "questionId": 1,
+            "answerId": 1
         },
         {
-            "answers": [
-                "Условные"
-            ],
-            "questionId": 2
+            "questionId": 2,
+            "answerId": 6
         }
     ],
     "result": {
-        "subject": "АЛМ",
+        "subject": {
+            "id": 1,
+            "name": "ALM"
+        },
         "submittedResultQuestion": [
             {
                 "id": 1,
-                "question": "Какие виды автоматов Вы знаете?",
-                "answers": [
-                    "Мили",
-                    "Мура",
-                    "Мира",
-                    "Мули"
-                ],
-                "rightAnswers": [
-                    "Мили",
-                    "Мура"
-                ],
-                "complexity": 3.0,
-                "userAnswer": [
+                "subject": {
+                    "id": 1,
+                    "name": "ALM"
+                },
+                "question": "Какие виды автоматов вы знаете",
+                "answerChoiceList": [
                     {
-                        "answer": "Мили",
-                        "right": true
+                        "id": 1,
+                        "answer": "Мили"
                     },
                     {
-                        "answer": "Мура",
-                        "right": true
+                        "id": 2,
+                        "answer": "Мурка"
+                    },
+                    {
+                        "id": 3,
+                        "answer": "Муира"
+                    },
+                    {
+                        "id": 4,
+                        "answer": "Мира"
                     }
-                ]
+                ],
+                "rightAnswers": [
+                    "Мили"
+                ],
+                "userAnswer": "Мили"
             },
             {
                 "id": 2,
-                "question": "Какие виды переходов Вы знаете?",
-                "answers": [
-                    "Простые",
-                    "Сложные",
-                    "Условные",
-                    "Безусловные"
+                "subject": {
+                    "id": 1,
+                    "name": "ALM"
+                },
+                "question": "Какие виды переходов Вы знаете",
+                "answerChoiceList": [
+                    {
+                        "id": 5,
+                        "answer": "Условные"
+                    },
+                    {
+                        "id": 6,
+                        "answer": "Простые"
+                    },
+                    {
+                        "id": 7,
+                        "answer": "Сложные"
+                    },
+                    {
+                        "id": 8,
+                        "answer": "Безуспешные"
+                    }
                 ],
                 "rightAnswers": [
-                    "Условные",
-                    "Безусловные"
+                    "Условные"
                 ],
-                "complexity": 3.0,
-                "userAnswer": [
-                    {
-                        "answer": "Условные",
-                        "right": true
-                    }
-                ]
+                "userAnswer": "Простые"
             }
         ],
         "rating": 50
